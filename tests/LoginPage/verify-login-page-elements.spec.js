@@ -1,5 +1,4 @@
 const {test,expect} = require('@playwright/test');
-const { beforeEach } = require('node:test');
 
 test.beforeEach('Navigate to Orange HRM homepage', async({page})=>{
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
