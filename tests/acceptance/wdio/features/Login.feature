@@ -1,5 +1,7 @@
 Feature: Login Validation
-    Background: I navigate to OrangeHRM landing page
+    Background: I navigate to OrangeHRM landing page details
+    When I navigate to OrangeHRM landing page
+    
     Scenario: Validate labels for the orange HRM test
     Given I navigate to OrangeHRM homepage
     When I am on landing page
