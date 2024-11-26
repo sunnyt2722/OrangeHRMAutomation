@@ -12,6 +12,7 @@
     "@types/node": "^22.9.0"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^11.1.0"
+    "@cucumber/cucumber": "^11.1.0",
+    "fs": "0.0.1-security"
   }
 }

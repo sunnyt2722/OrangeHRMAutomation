@@ -1,0 +1,24 @@
+{
+    "default": {
+        "paths": [
+            "tests/acceptance/wdio/features/**/*.feature"
+        ],
+        "require": [
+            "tests/acceptance/wdio/step-definition/**.js"
+        ],
+
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+
+        "format": [
+            [
+                "html",
+                "test-results/cucumber/cucumber-report.html"
+            ],
+            "summary",
+            "progress-bar",
+            "json:test-results/cucumber/cucumber-report.json"
+        ]
+    }
+}
